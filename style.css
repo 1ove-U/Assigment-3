@@ -1,0 +1,42 @@
+form{
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid darkgreen;
+    border-radius: 8px;
+    background-color: rgb(115, 188, 211);
+}
+form div{
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type= "text"],input[type="email"],textarea,select{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button[type="submit" ]{
+    background-color: rgb(73, 166, 182);
+    color: rgb(37, 65, 107);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type = "submit"]:hover{
+    background-color: yellowgreen;
+}
+.top-image {
+    margin: 20px auto 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFF;
+}
